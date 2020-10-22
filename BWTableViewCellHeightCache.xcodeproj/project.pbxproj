@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA452E5F254186490035810A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E5E254186490035810A /* AppDelegate.m */; };
+		DA452E62254186490035810A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E61254186490035810A /* SceneDelegate.m */; };
+		DA452E65254186490035810A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E64254186490035810A /* ViewController.m */; };
+		DA452E68254186490035810A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA452E66254186490035810A /* Main.storyboard */; };
+		DA452E6A2541864A0035810A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA452E692541864A0035810A /* Assets.xcassets */; };
+		DA452E6D2541864A0035810A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA452E6B2541864A0035810A /* LaunchScreen.storyboard */; };
+		DA452E702541864A0035810A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E6F2541864A0035810A /* main.m */; };
+		DA452E7A2541864B0035810A /* BWTableViewCellHeightCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E792541864B0035810A /* BWTableViewCellHeightCacheTests.m */; };
+		DA452E852541864B0035810A /* BWTableViewCellHeightCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E842541864B0035810A /* BWTableViewCellHeightCacheUITests.m */; };
+		DA452EA0254186BE0035810A /* BWFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452E9F254186BE0035810A /* BWFeedEntity.m */; };
+		DA452EAB254187750035810A /* CacheTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452EA9254187750035810A /* CacheTableViewCell.m */; };
+		DA452EAC254187750035810A /* CacheTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA452EAA254187750035810A /* CacheTableViewCell.xib */; };
+		DA452EB725418B160035810A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DA452EB625418B160035810A /* data.json */; };
+		DA452EC125418C5C0035810A /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452EBF25418C5C0035810A /* TestTableViewCell.m */; };
+		DA452EC225418C5C0035810A /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA452EC025418C5C0035810A /* TestTableViewCell.xib */; };
+		DA452EC92541905B0035810A /* UITableView+BWTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452EC82541905B0035810A /* UITableView+BWTemplateLayoutCell.m */; };
+		DA452ED225419DD30035810A /* UITableView+BWLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452ED125419DD30035810A /* UITableView+BWLayoutCellDebug.m */; };
+		DA452EDE2541A1EA0035810A /* BWIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452EDD2541A1EA0035810A /* BWIndexPathHeightCache.m */; };
+		DA452EE72541A3940035810A /* UITableView+BWIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA452EE62541A3940035810A /* UITableView+BWIndexPathHeightCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA452E762541864B0035810A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA452E52254186490035810A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA452E59254186490035810A;
+			remoteInfo = BWTableViewCellHeightCache;
+		};
+		DA452E812541864B0035810A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA452E52254186490035810A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA452E59254186490035810A;
+			remoteInfo = BWTableViewCellHeightCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA452E5A254186490035810A /* BWTableViewCellHeightCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWTableViewCellHeightCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452E5D254186490035810A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA452E5E254186490035810A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA452E60254186490035810A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DA452E61254186490035810A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DA452E63254186490035810A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA452E64254186490035810A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA452E67254186490035810A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA452E692541864A0035810A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA452E6C2541864A0035810A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA452E6E2541864A0035810A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452E6F2541864A0035810A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA452E752541864B0035810A /* BWTableViewCellHeightCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWTableViewCellHeightCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452E792541864B0035810A /* BWTableViewCellHeightCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTableViewCellHeightCacheTests.m; sourceTree = "<group>"; };
+		DA452E7B2541864B0035810A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452E802541864B0035810A /* BWTableViewCellHeightCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWTableViewCellHeightCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452E842541864B0035810A /* BWTableViewCellHeightCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTableViewCellHeightCacheUITests.m; sourceTree = "<group>"; };
+		DA452E862541864B0035810A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA452E9E254186BE0035810A /* BWFeedEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWFeedEntity.h; sourceTree = "<group>"; };
+		DA452E9F254186BE0035810A /* BWFeedEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFeedEntity.m; sourceTree = "<group>"; };
+		DA452EA8254187750035810A /* CacheTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheTableViewCell.h; sourceTree = "<group>"; };
+		DA452EA9254187750035810A /* CacheTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheTableViewCell.m; sourceTree = "<group>"; };
+		DA452EAA254187750035810A /* CacheTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CacheTableViewCell.xib; sourceTree = "<group>"; };
+		DA452EB625418B160035810A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DA452EBE25418C5C0035810A /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		DA452EBF25418C5C0035810A /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		DA452EC025418C5C0035810A /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		DA452EC72541905B0035810A /* UITableView+BWTemplateLayoutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BWTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		DA452EC82541905B0035810A /* UITableView+BWTemplateLayoutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BWTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		DA452ED025419DD30035810A /* UITableView+BWLayoutCellDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BWLayoutCellDebug.h"; sourceTree = "<group>"; };
+		DA452ED125419DD30035810A /* UITableView+BWLayoutCellDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BWLayoutCellDebug.m"; sourceTree = "<group>"; };
+		DA452EDC2541A1EA0035810A /* BWIndexPathHeightCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWIndexPathHeightCache.h; sourceTree = "<group>"; };
+		DA452EDD2541A1EA0035810A /* BWIndexPathHeightCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWIndexPathHeightCache.m; sourceTree = "<group>"; };
+		DA452EE52541A3940035810A /* UITableView+BWIndexPathHeightCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BWIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		DA452EE62541A3940035810A /* UITableView+BWIndexPathHeightCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BWIndexPathHeightCache.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA452E57254186490035810A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E722541864B0035810A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E7D2541864B0035810A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA452E51254186490035810A = {
+			isa = PBXGroup;
+			children = (
+				DA452E5C254186490035810A /* BWTableViewCellHeightCache */,
+				DA452E782541864B0035810A /* BWTableViewCellHeightCacheTests */,
+				DA452E832541864B0035810A /* BWTableViewCellHeightCacheUITests */,
+				DA452E5B254186490035810A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA452E5B254186490035810A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA452E5A254186490035810A /* BWTableViewCellHeightCache.app */,
+				DA452E752541864B0035810A /* BWTableViewCellHeightCacheTests.xctest */,
+				DA452E802541864B0035810A /* BWTableViewCellHeightCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA452E5C254186490035810A /* BWTableViewCellHeightCache */ = {
+			isa = PBXGroup;
+			children = (
+				DA452EC6254190300035810A /* Libs */,
+				DA452EB625418B160035810A /* data.json */,
+				DA452EA7254187610035810A /* Views */,
+				DA452E9D254186AA0035810A /* Enritys */,
+				DA452E5D254186490035810A /* AppDelegate.h */,
+				DA452E5E254186490035810A /* AppDelegate.m */,
+				DA452E60254186490035810A /* SceneDelegate.h */,
+				DA452E61254186490035810A /* SceneDelegate.m */,
+				DA452E63254186490035810A /* ViewController.h */,
+				DA452E64254186490035810A /* ViewController.m */,
+				DA452E66254186490035810A /* Main.storyboard */,
+				DA452E692541864A0035810A /* Assets.xcassets */,
+				DA452E6B2541864A0035810A /* LaunchScreen.storyboard */,
+				DA452E6E2541864A0035810A /* Info.plist */,
+				DA452E6F2541864A0035810A /* main.m */,
+			);
+			path = BWTableViewCellHeightCache;
+			sourceTree = "<group>";
+		};
+		DA452E782541864B0035810A /* BWTableViewCellHeightCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA452E792541864B0035810A /* BWTableViewCellHeightCacheTests.m */,
+				DA452E7B2541864B0035810A /* Info.plist */,
+			);
+			path = BWTableViewCellHeightCacheTests;
+			sourceTree = "<group>";
+		};
+		DA452E832541864B0035810A /* BWTableViewCellHeightCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA452E842541864B0035810A /* BWTableViewCellHeightCacheUITests.m */,
+				DA452E862541864B0035810A /* Info.plist */,
+			);
+			path = BWTableViewCellHeightCacheUITests;
+			sourceTree = "<group>";
+		};
+		DA452E9D254186AA0035810A /* Enritys */ = {
+			isa = PBXGroup;
+			children = (
+				DA452E9E254186BE0035810A /* BWFeedEntity.h */,
+				DA452E9F254186BE0035810A /* BWFeedEntity.m */,
+			);
+			path = Enritys;
+			sourceTree = "<group>";
+		};
+		DA452EA7254187610035810A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA452EA8254187750035810A /* CacheTableViewCell.h */,
+				DA452EA9254187750035810A /* CacheTableViewCell.m */,
+				DA452EAA254187750035810A /* CacheTableViewCell.xib */,
+				DA452EBE25418C5C0035810A /* TestTableViewCell.h */,
+				DA452EBF25418C5C0035810A /* TestTableViewCell.m */,
+				DA452EC025418C5C0035810A /* TestTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA452EC6254190300035810A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DA452EC72541905B0035810A /* UITableView+BWTemplateLayoutCell.h */,
+				DA452EC82541905B0035810A /* UITableView+BWTemplateLayoutCell.m */,
+				DA452EE52541A3940035810A /* UITableView+BWIndexPathHeightCache.h */,
+				DA452EE62541A3940035810A /* UITableView+BWIndexPathHeightCache.m */,
+				DA452ED025419DD30035810A /* UITableView+BWLayoutCellDebug.h */,
+				DA452ED125419DD30035810A /* UITableView+BWLayoutCellDebug.m */,
+				DA452EDC2541A1EA0035810A /* BWIndexPathHeightCache.h */,
+				DA452EDD2541A1EA0035810A /* BWIndexPathHeightCache.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA452E59254186490035810A /* BWTableViewCellHeightCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452E892541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCache" */;
+			buildPhases = (
+				DA452E56254186490035810A /* Sources */,
+				DA452E57254186490035810A /* Frameworks */,
+				DA452E58254186490035810A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWTableViewCellHeightCache;
+			productName = BWTableViewCellHeightCache;
+			productReference = DA452E5A254186490035810A /* BWTableViewCellHeightCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA452E742541864B0035810A /* BWTableViewCellHeightCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452E8C2541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCacheTests" */;
+			buildPhases = (
+				DA452E712541864B0035810A /* Sources */,
+				DA452E722541864B0035810A /* Frameworks */,
+				DA452E732541864B0035810A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA452E772541864B0035810A /* PBXTargetDependency */,
+			);
+			name = BWTableViewCellHeightCacheTests;
+			productName = BWTableViewCellHeightCacheTests;
+			productReference = DA452E752541864B0035810A /* BWTableViewCellHeightCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA452E7F2541864B0035810A /* BWTableViewCellHeightCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA452E8F2541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCacheUITests" */;
+			buildPhases = (
+				DA452E7C2541864B0035810A /* Sources */,
+				DA452E7D2541864B0035810A /* Frameworks */,
+				DA452E7E2541864B0035810A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA452E822541864B0035810A /* PBXTargetDependency */,
+			);
+			name = BWTableViewCellHeightCacheUITests;
+			productName = BWTableViewCellHeightCacheUITests;
+			productReference = DA452E802541864B0035810A /* BWTableViewCellHeightCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA452E52254186490035810A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DA452E59254186490035810A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DA452E742541864B0035810A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DA452E59254186490035810A;
+					};
+					DA452E7F2541864B0035810A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DA452E59254186490035810A;
+					};
+				};
+			};
+			buildConfigurationList = DA452E55254186490035810A /* Build configuration list for PBXProject "BWTableViewCellHeightCache" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA452E51254186490035810A;
+			productRefGroup = DA452E5B254186490035810A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA452E59254186490035810A /* BWTableViewCellHeightCache */,
+				DA452E742541864B0035810A /* BWTableViewCellHeightCacheTests */,
+				DA452E7F2541864B0035810A /* BWTableViewCellHeightCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA452E58254186490035810A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452E6D2541864A0035810A /* LaunchScreen.storyboard in Resources */,
+				DA452E6A2541864A0035810A /* Assets.xcassets in Resources */,
+				DA452EAC254187750035810A /* CacheTableViewCell.xib in Resources */,
+				DA452EC225418C5C0035810A /* TestTableViewCell.xib in Resources */,
+				DA452EB725418B160035810A /* data.json in Resources */,
+				DA452E68254186490035810A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E732541864B0035810A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E7E2541864B0035810A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA452E56254186490035810A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452EC125418C5C0035810A /* TestTableViewCell.m in Sources */,
+				DA452E65254186490035810A /* ViewController.m in Sources */,
+				DA452EDE2541A1EA0035810A /* BWIndexPathHeightCache.m in Sources */,
+				DA452E5F254186490035810A /* AppDelegate.m in Sources */,
+				DA452ED225419DD30035810A /* UITableView+BWLayoutCellDebug.m in Sources */,
+				DA452EAB254187750035810A /* CacheTableViewCell.m in Sources */,
+				DA452EC92541905B0035810A /* UITableView+BWTemplateLayoutCell.m in Sources */,
+				DA452EA0254186BE0035810A /* BWFeedEntity.m in Sources */,
+				DA452EE72541A3940035810A /* UITableView+BWIndexPathHeightCache.m in Sources */,
+				DA452E702541864A0035810A /* main.m in Sources */,
+				DA452E62254186490035810A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E712541864B0035810A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452E7A2541864B0035810A /* BWTableViewCellHeightCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA452E7C2541864B0035810A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA452E852541864B0035810A /* BWTableViewCellHeightCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA452E772541864B0035810A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA452E59254186490035810A /* BWTableViewCellHeightCache */;
+			targetProxy = DA452E762541864B0035810A /* PBXContainerItemProxy */;
+		};
+		DA452E822541864B0035810A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA452E59254186490035810A /* BWTableViewCellHeightCache */;
+			targetProxy = DA452E812541864B0035810A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA452E66254186490035810A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA452E67254186490035810A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA452E6B2541864A0035810A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA452E6C2541864A0035810A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA452E872541864B0035810A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA452E882541864B0035810A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA452E8A2541864B0035810A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA452E8B2541864B0035810A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA452E8D2541864B0035810A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWTableViewCellHeightCache.app/BWTableViewCellHeightCache";
+			};
+			name = Debug;
+		};
+		DA452E8E2541864B0035810A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCacheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWTableViewCellHeightCache.app/BWTableViewCellHeightCache";
+			};
+			name = Release;
+		};
+		DA452E902541864B0035810A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWTableViewCellHeightCache;
+			};
+			name = Debug;
+		};
+		DA452E912541864B0035810A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BWTableViewCellHeightCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.algorithm.bw.BWTableViewCellHeightCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWTableViewCellHeightCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA452E55254186490035810A /* Build configuration list for PBXProject "BWTableViewCellHeightCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452E872541864B0035810A /* Debug */,
+				DA452E882541864B0035810A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452E892541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452E8A2541864B0035810A /* Debug */,
+				DA452E8B2541864B0035810A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452E8C2541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452E8D2541864B0035810A /* Debug */,
+				DA452E8E2541864B0035810A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA452E8F2541864B0035810A /* Build configuration list for PBXNativeTarget "BWTableViewCellHeightCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA452E902541864B0035810A /* Debug */,
+				DA452E912541864B0035810A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA452E52254186490035810A /* Project object */;
+}
